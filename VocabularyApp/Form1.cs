@@ -19,7 +19,7 @@ namespace VocabularyApp
         }
         
         //YOU SHOULD ENTER YOUR CONNECTION STRING FIRST
-        SqlConnection connection = new SqlConnection("ENTER YOUR CONNECTION STRING HERE");
+        SqlConnection connection = new SqlConnection("Data Source=DESKTOP-CJTBSKD;Initial Catalog=dictionaryDB;Integrated Security=True");
 
         //FIND FUNCTION STARTS HERE
         void listWord()
